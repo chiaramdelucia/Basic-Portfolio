@@ -3,12 +3,20 @@ body{
 	color: #777777;
 }
 
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
 nav{
 	height: 150px;
 	width: 100%
 	padding: 50px;
 	background-color: #fff;
 	position: relative;
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: #dddddd;
 }
 
 h1 {
@@ -33,25 +41,54 @@ li {
 	padding: 20px;
 }
 
-section {
-	border-width: 10px;
-	border-color: #dddddd;
-	margin-left: 75px;
-	margin-right: 600px;
-}
 
 .main{
 	position: relative;
 }
 
-aside{
+.about{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	background-color: white;
+	float: left;
+	position: absolute;
+	top: 20px;
+	left: 75px; 
+	right: 600px;
+}
+
+h2 {
+	padding: 20px;
+	color: #4aaaa5;
+	font-size: 30px; 
+}
+
+p {
+	float: left;
+	padding: 20px;
+}
+
+.connect{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	background-color: white;
 	position: absolute;
 	right: 100px;
-	top: 200px;
+	top: 20px;
 }
 
 footer {
 	background-color: #666666;
+	text-align: center;
+	width: 100%;
+	padding: 30px;
 	color: #fff;
+	border-top: 10px;
+	border-style: solid;
+	border-color: #4aaaa5;
 	clear: both;
+	position: fixed;
+	bottom: 0;
 }
